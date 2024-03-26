@@ -59,7 +59,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Frontend WoW",
+      title: "Frontend Way of Working (WIP)",
       logo: {
         alt: "DHIS2 Logo",
         src: "img/dhis2-logo.svg",
@@ -67,21 +67,35 @@ const config: Config = {
       items: [
         {
           to: "/repos",
-          position: "left",
-          label: "Projects List",
+          label: "Repos Catalog",
         },
-        // {
-        //   type: "docSidebar",
-        //   sidebarId: "tutorialSidebar",
-        //   position: "left",
-        //   label: "Tutorial",
-        // },
-        // { to: "/blog", label: "Blog", position: "left" },
-        // {
-        //   href: "https://github.com/facebook/docusaurus",
-        //   label: "GitHub",
-        //   position: "right",
-        // },
+        {
+          type: "docSidebar",
+          sidebarId: "wayOfWorkingSideBar",
+          label: 'Way of Working'
+        },   
+        {
+          type: "docSidebar",
+          sidebarId: "onboardingSideBar",
+          label: 'Onboarding'
+        },
+        {
+          type: "dropdown",
+          label: "Other",
+          items: [
+
+            {
+              href: "https://dhis2.github.io/academy-web-app-dev/docs/web-academy/",
+              label: "Web Academy",
+            },
+          ]
+        },        
+        {
+          href: "https://github.com/facebook/docusaurus",
+          label: "GitHub",
+          className: 'red',
+          position: "right",
+        },
       ],
     },
     footer: {

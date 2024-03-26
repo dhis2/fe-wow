@@ -3,9 +3,13 @@ import { Octokit, App } from "octokit";
 import { getBranchesAndTags } from "./getBranchesAndTags";
 import { findOwner } from "./owners";
 
+const isDevelopment = process.env.NODE_ENV === 'development'
+
 export const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
-const reposCountLimit = process.env.LIMIT_REPOS_COUNT ? Number(process.env.LIMIT_REPOS_COUNT ) : undefined
+const reposCountLimit = process.env.LIMIT_REPOS_COUNT
+  ? Number(process.env.LIMIT_REPOS_COUNT)
+  : undefined;
 
 type ReposPluginOptions = {
   githubToken: string;
@@ -21,7 +25,7 @@ export const loadRepos = async (
     octokit.rest.repos.listForOrg,
     {
       org,
-      per_page: 30,
+      per_page: reposCountLimit ? 5 : 50,
       page: 1,
       sort: "pushed",
     }

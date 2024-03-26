@@ -1,10 +1,15 @@
 import { loadRepos } from "./load-repos";
 
+const isDevelopment = process.env.NODE_ENV === 'development'
+
 export default async function myPlugin(context, options) {
   // ...
   return {
     name: "github-repos",
     async loadContent() {
+      if(process.env.SKIP_GH_REPOS) {
+        return []
+      }
       return loadRepos(options);
     },
     async contentLoaded({ content, actions }) {
