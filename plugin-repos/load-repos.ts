@@ -3,9 +3,19 @@ import { Octokit, App } from "octokit";
 import { getBranchesAndTags } from "./getBranchesAndTags";
 import { findOwner } from "./owners";
 
-const isDevelopment = process.env.NODE_ENV === 'development'
+const isDevelopment = process.env.NODE_ENV === 'development';
 
-export const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+const user = process.env.REPOS_SCRAPER_TOKEN;
+
+export const octokit = new Octokit({
+  auth: user,
+});
+
+if(!user) {
+  throw "no token set for OctoKit"
+} else {
+  console.info("token provided for OctoKit")
+}
 
 const reposCountLimit = process.env.LIMIT_REPOS_COUNT
   ? Number(process.env.LIMIT_REPOS_COUNT)
