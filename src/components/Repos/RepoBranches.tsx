@@ -12,7 +12,7 @@ const RepoBranches = ({ repo }: RepoBranchesType) => {
 
   return (
     <>
-      <small>
+      <div className="text--light">
         <div>
           {repo.branches.slice(0, 10).map((b, i) => {
             return (
@@ -28,7 +28,7 @@ const RepoBranches = ({ repo }: RepoBranchesType) => {
             <i className="text--danger">* this app is on Continuous Delivery</i>
           )}
         </div>
-      </small>
+      </div>
     </>
   );
 };

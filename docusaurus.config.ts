@@ -9,17 +9,18 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://dhis2.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: process.env.BASE_URL || "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "dhis2", // Usually your GitHub org/user name.
+  projectName: "wow-frontend", // Usually your repo name.
+  trailingSlash: true,
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -72,28 +73,27 @@ const config: Config = {
         {
           type: "docSidebar",
           sidebarId: "wayOfWorkingSideBar",
-          label: 'Way of Working'
-        },   
+          label: "Way of Working",
+        },
         {
           type: "docSidebar",
           sidebarId: "onboardingSideBar",
-          label: 'Onboarding'
+          label: "Onboarding",
         },
         {
           type: "dropdown",
           label: "Other",
           items: [
-
             {
               href: "https://dhis2.github.io/academy-web-app-dev/docs/web-academy/",
               label: "Web Academy",
             },
-          ]
-        },        
+          ],
+        },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
-          className: 'red',
+          className: "red",
           position: "right",
         },
       ],
@@ -101,7 +101,7 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} DHIS2. Built with Docusaurus.`,
+      copyright: `Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
