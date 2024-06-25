@@ -18,7 +18,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "dhis2", // Usually your GitHub org/user name.
   projectName: "wow-frontend", // Usually your repo name.
-  trailingSlash: true,
+  trailingSlash: false,
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -30,6 +30,11 @@ const config: Config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
 
   presets: [
     [
@@ -67,7 +72,7 @@ const config: Config = {
       },
       items: [
         {
-          to: "/repos",
+          to: "repos",
           label: "Repos Catalog",
         },
         {

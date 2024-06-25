@@ -4,14 +4,15 @@ import ReposList, { ReposProps } from "./ReposList";
 
 const repos = (props: ReposProps) => {
   return (
-    <Layout
-      title="Projects List"
-      description="All projects in DHIS2 organisation"
-    >
-      <main className={styles.main}>
-        <ReposList repos={props.repos} />
-      </main>
-    </Layout>
+    // <Layout
+    //   title="Projects List"
+    //   description="All projects in DHIS2 organisation"
+    // >
+    //   <main className={styles.main}>
+    <>TEEST</>
+    // {/* <ReposList repos={props.repos} /> */}
+    // </main>
+    // </Layout>
   );
 };
 
