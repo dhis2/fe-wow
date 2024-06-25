@@ -1,6 +1,6 @@
 {
-    "position": 5,
-    "label": "Testing",
-    "collapsible": true,
-    "collapsed": false
+  "position": 15,
+  "label": "Testing",
+  "collapsible": true,
+  "collapsed": true
 }
