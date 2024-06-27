@@ -3,19 +3,20 @@ title: Frontend way of working (Platform)
 sidebar_position: 1
 ---
 
-## The values
+## The principles
 
 As a team, we value:
 
-- **Transparency**: Transparency is at the core of what we do. We see development as an exercise in good communication and transparency, as much as it is a technical exercise. Transparency builds trust, improves communication, accountability, and ensures we're always engaged with different stakeholders and view points to _not_ only build the things right, but also build the right things.
+- **Addressing real world challenges**: DHIS2 success story is rooted in a humble focus on addressing real world challenges. As a dev team, we should always realise that our focus is to address real world challenges. This can _often_ mean that "Pefect is the enemy of Good" but more than anything it means a sense of *pragmatism* that - as we scale - we aim for more than "just good" but we also don't lose track of delivering value, especially in the fast evolving world of frontend.
 
-- **Continuous improvement**: We aim for continuous improvement. Every release, every sprint, every day, we aim to be better than the previous one. Our goal is always a moving target; it is to improve ourselves, our process and our product, and learn and grow from our experiences. 
+- **Flexibility and responsiveness**: This should be a general attitude in our communication and development work. We value our end-users and stakeholders and we understand - with humility - that our technical output serves them in the first place. We show that by being flexible, responsive and *empathetic* with their needs. Internally, we also exercise the same flexibility; we don't get too dogmatic about technical differences because technology is the means not the end.
 
-- **Pragmatism**: We value pragmatism. DHIS2 success story is rooted in pragmatism and that _often_ Pefect is the enemy of Good. As we scale, we should aim more than "just good" but - especially in the frontend world - it's easy to lose track of delivering value to seek technical perfection. Our development work should be a continuous exercise in pragmatism to make sure that we always deliver value for the end-user, and that our technical excellence is a means not a goal.
+- **Transparent efficient communication**: Transparency is at the core of what we do. **We see development as primarily an exercise in good communication and transparency**. Transparency builds trust, improves communication, accountability, and ensures we're always engaged with different stakeholders and view points to _not_ only build the things right, but also build the right things. Efficient communication means good meetings, good PRs, great documentation and great engagement with our end-users.  
 
-We also think that **empathy** underpins all these values and all what we do. This is empathy with the end-users, with other stake holders and above all empathy with our fellow developers and colleagues.
+We also value **Continuous improvement**. Every release, every sprint, every day, we aim to be better than the previous one. Our goal is always a moving target; it is to improve ourselves, our process and our product, and learn and grow from our experiences. 
 
-Our way of working builds on these values. This document defines some of the details of how we work (the process, the meetings, the technology etc..) but the details are an on-going process (continuous improvement) and the details should be viewed, refined and _critiqued_ in the spirit provided by these values.
+
+Our way of working builds on these principles. This document defines some of the details of how we work (the process, the meetings, the technology etc..) but the details are an on-going process (continuous improvement) and the details should always be viewed, refined and _critiqued_ in the spirit provided by these principles.
 
 ## The Process
 
