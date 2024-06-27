@@ -7,11 +7,11 @@ sidebar_position: 1
 
 As a team, we value:
 
-- **Addressing real world challenges**: DHIS2 success story is rooted in being close to the end user, and to focus on addressing their real world challenges with humility and pragmatism. As a dev team, we should learn from these roots and keep them in the center of all what we do. This can sometimes mean prioritising the users' pain points (rather than the developers' pain points), it _could_ mean that  we _consciously_ ship imperfect solutions because "Pefect is the enemy of Good". But more than anything, it means that - as we scale - we have to develop a sense of *pragmatism* and aim for more than "just good" while still focusing on delivering value for the people actually using DHIS2.
+- **Addressing real world challenges**: DHIS2 success story is rooted in being close to the end user, and to focus on addressing their real world challenges with humility and pragmatism. As a dev team, we should learn from these roots and always ensure we are _not_ only building the things right, but also building the right things. This can sometimes mean prioritising the users' pain points (rather than the developers' pain points), it _could_ mean that  we _consciously_ ship imperfect solutions because "Pefect is the enemy of Good". But more than anything, it means that - as we scale - we have to develop a sense of **pragmatism** to aim for more than "just good" from a technical perspective, while still focusing on delivering value for the real-world challenges. 
 
-- **Flexibility and responsiveness**: This should be a general attitude in our communication and development work. It is also an attitude rooted in DHIS2 beginnings. Since we value our end-users and stakeholders, we also understand - with humility - that our technical output serves them in the first place. We show that by being flexible, responsive and *empathetic* with their needs. Internally, we also exercise the same responsiveness and flexibility; we are responsive to other teammates requests, we are responsive to urgent bugs and fixes, and we don't get too dogmatic about technical differences because technology is the means not the end.
+- **Flexibility and responsiveness**: This should be a general attitude in our communication and development work. It is also an attitude rooted in DHIS2 beginnings. We value our end-users and we show that by being flexible, responsive and *empathetic* with their needs. Internally, we also exercise the same responsiveness, flexibility and empathy; we are responsive to other teammates requests, we are responsive to urgent bugs and fixes, and we don't get too dogmatic about technical differences because technology is the means not the end.
 
-- **Transparent efficient communication**: Transparency should be at the core of what we do. **We see development as primarily an exercise in good communication and transparency**. Transparency builds trust, improves communication, accountability, and ensures we're always engaged with different stakeholders and view points to _not_ only build the things right, but also build the right things. Efficient communication means good meetings, good PRs, great documentation and great engagement with our end-users, but it also means always assuming good intentions, over-communicating in a remote team, and be inclusive and open in a team with different personalities and backgrounds.  
+- **Transparent efficient communication**: Transparency should be at the core of all what we do. We see development as primarily an exercise in good communication and transparency. Transparency builds trust, improves communication, accountability, and ensures we're always engaged with different stakeholders and view points. Efficient communication means efficient meetings, good PRs, great documentation and constant engagement with our end-users, but it also means always assuming good intentions, over-communicating in a remote team, and be inclusive and open in a team with different personalities and backgrounds.  
 
 We also value **Continuous improvement**. Every release, every sprint, every day, we aim to be better than the previous one. Our goal is always a moving target; it is to improve ourselves, our process and our product, and learn and grow from our experiences. 
 
@@ -46,20 +46,6 @@ The platform team works in **one-month sprints** (two months in the summer). The
 Before a new sprint, we have a **Sprint planning**. In the planning, we go through the tickets that we are commiting to for the next sprint/month. We have a brief discussion about them, any technical challenges, better way to break them etc.. The intention is to have tickets that can deliver value in a sprint.
 
 
-<details>
-    <summary>Objectives of sprint planning</summary>
-
-    - commit as a team to deliverables for the next sprint/month
-    - highlight any issues that need further analysis
-    - 
-
-    A good sprint is one that:
-    - commits to stories that are deliverable within the sprint
-    - delivers stories that adds value to the product and relate to the roadmap
-    - tackles some of the technical debt the team incurred.
-
-</details>
-
 Instead of a synchronous daily standup, we have an **async standup** that takes the form of a short update on Slack. We also have a weekly sync meeting, **Tuesday meeting**, that constitutes of two parts: The first includes the backend and frontend teams and goes through an update from each member of the teams, and provides an opportunity to discuss any issues that affect both frontend and backend. The second part is specific to the frontend where we:
 - discuss any topics that need coordination and bringing up to the entire team
 - go through the Jira board and make sure it reflects the state of work
@@ -67,21 +53,16 @@ Instead of a synchronous daily standup, we have an **async standup** that takes 
 
 The frontend part of the meeting is run by a different person each week.
 
-<details>
-    <summary>Objectives of async standup</summary>
-
-    - focus your day: to decide - as a developer - what's your main focus for the day.
-    - transparency: share with the team your plan for the day, and provide a chance for anyone to provide input.
-    - impediments: highlight impediments (PRs waiting for review, backend issues..)
-    - highlight any unplanned work that had to be done since the previous update.
-
-    A good async standup update is:
-    - NOT a work report, not a proof that you're around and working - we know you are.
-    - addressed to the whole team - not the lead or manager.
-
-</details>
-
 We have a **retrospective** every two sprints. The retrospective represents an opportunity to reflect on the last period, and decide on actions and improvement for the next sprints.
+
+| | should | should NOT | 
+| -- | -- | -- |
+| A good **sprint** | - focuses the team on clear attainable objectives <br/>- breaks big tasks into smaller ones that can be delivered within a sprint <br/> - delivers stories that adds value to the product and relate to the roadmap <br/> - tackles some of the technical debt the team incurred. | - should not be set in stone |
+| A good **sprint planning** | - commits us as a team to deliverables and objectives for the next sprint/month <br/> - highlights any issues that need further analysis | - should not be a painful long meeting (sprint refinement should help make it more efficient) <br/> - should not be hogged by the team leads |
+| A good **async standup** | - focuses an individual's work day: to decide - as a developer - what's your main focus for the day. <br/> - transparency: share with the team your plan for the day, and provide a chance for anyone to provide input. <br/> - impediments: highlight impediments (PRs waiting for review, backend issues..)<br/> - highlight any unplanned work that had to be done since the previous update. | - is NOT a work report, not a proof that you're around and working - we know you are. <br/> - is not addressed to the lead or manager, it is to communicate with the whole team |
+| A good **weekly sync meeting** | - is an opportunity to engage with other team members more dynamically <br/> - is an opportunity to address cross-functional concerns syncronously <br/> - is a place to know and discuss organisational matters | - is not the only chance to discuss cross-functional concerns. Prefer improptu ad-hoc meetings for these topics over waiting a week unnecessarily. |
+| A good **retrospective** | - comes up with actions and makes sure that previous actions were tackled <br/> - ensures everyone in the team participates in the discussion <br/> - is facilitated by different people to provide different perspectives <br/> - is a no-blame zone, we provide feedback ato improve, it can be critical at times (it needs to) but we should always assume good intentions about the feedback. <br/> | - it is _not_ a replacement for continuous feedback on the day to day <br/> - does not shy away from difficult conversations and criticism. |
+
 
 
 <details>
@@ -143,17 +124,16 @@ We also think that, while we should be open to what's common wisdom in the tech 
 :::
 
 
-### Definition of Done
+## Definition of Done
 
-- **Implemented and tested by the , a PR raised**:
+- **Implemented and a PR raised**: The developer has implemented the feature or fixed the bug, and has done their own developer testing to ensure it's working. They raised a PR with enough context for someone to review it.
 
-- **Reviewed and Tested:** Reviews typically take the form of a Pull Request. As part of the PR process, the peer also tests the PR (this is facilitated by automated deployment for PRs we have for most projects). Once that's 
+- **Reviewed and Tested**: Reviews typically take the form of a Pull Request. As part of the PR process, the peer also tests the PR (this is facilitated by automated deployment for PRs we have for most projects). Once that's 
 
-We would like to have **Unit Tested** also as part of the definition of Done. This is addressed in more details in the Way of Testing document, but for now, we're leaving it out of the DoD as we have a big legacy of untested work.
+- ***Unit tested***: We would like to have **Unit Tested** also as part of the definition of Done. This is addressed in more details in the Way of Testing document, but for now, we're leaving it out of the DoD as we have a big legacy of untested work.
 
-> todo: link to Way of testing
+- **Merged and Released**: Once the review is done, the PR is merged. This can mean that it is released already, but it can also mean (closer to the end of the major release cycle) that you need to update the bunbled version of the app in the release branch, similar to [this PR](https://github.com/dhis2/dhis2-core/pull/17356/files).
 
-> todo: which tickets are tested by developers vs QA team
 
 While most of our DoD is typical to most dev teams, there are bits that are specific to DHIS2 that we would like to highlight:
 
@@ -163,7 +143,11 @@ While most of our DoD is typical to most dev teams, there are bits that are spec
 
 - **Documented**: As an open-source project, we have to make sure that what we build is well-documented for other internal developers as well as external developers. This is especially true for the Platform team where a lot of what is built is tools and libraries for other developers.
 
-- **Released**: 
+> todo: link to Way of testing
+
+> todo: which tickets are tested by developers vs QA team
+
+### DoD future
 
 We would like also to have in the DoD:
 
@@ -172,8 +156,19 @@ We would like also to have in the DoD:
 - **RTL-friendly**: We support a growing number of right-to-left languages. We aim to make sure that our apps function well in RTL languages. This is achieved mostly by using logical CSS properties, and we have tools to support and automate that process (an example of their use in [this PR](https://github.com/dhis2/dashboard-app/pull/2985))
 
 
-### Definition of Ready
+## Definition of Ready
 
+A Definition of Ready (DoR) is a set of criteria that ensures a backlog item is ready to be developed and delivered.
+
+We don't have a mature DoR yet. We pick stories at different levels of maturity, sometimes they have already went through functional and UI design (mature stories), sometimes not. We are _pragmatic_ about what is ready to pick and develop, but we want to acknowledge the more ready a story, the more likely it will be delivered on time and as expected.
+
+Some questions to ask:
+1. is the API to integrate with built already, or at least the contract defined?
+1. do we have a UX design? if not, can we proceed without one following existing principles and the UI library
+1. is there a hard deadline? there is often an external stakeholder waiting for a functionality and has an urgent need for it (funders, HISP, MoH etc..), keep that in mind, when defining what and when to deliver.
+1. does it need QA involvement for testing? 
+
+> todo (DoR for bugs vs features?)
 
 ## Roles
 
@@ -187,40 +182,35 @@ The main roles taking part in the sprint are:
 
 - The developers: they own the technical delivery of a functionality. They ensure that these are developed with good quality in a timely manner, and that their progress is transparent and well communicated.
 
-<details>
-    <summary> [Discussion Point] The unbearable muddiness of the "flat hierarchy"</summary>
+### The (not-)flat hierarchy
 
-    We typically describe ourselves as a "flat hierarchy". This might have been true in the early days of DHIS2, but  as the team scaled and got bigger, this is certainly not a view shared by developers anymore.
+> discussion point
 
-    The issue with this statement is that it muddies the reponsibilities and accountability for people at both ends of the hierarchy. It is better to acknowledge where we are now - NOT a flat hierarchy - and provide clear responisibilities and expectations.
-    
-    Becoming a flat hierarchy can be a goal, but it is not where we are. Otherwise this claim - from the perspective of developers - seems isolated from the day to day reality, and contradicts our process and organisational strucuture.
-</details>
+We historically described ourselves as a "flat hierarchy". This might have been true in the early days of DHIS2, but  as the team scaled and got bigger, this is not a view shared by developers anymore.
 
-There are other important roles that are not always present in the day-to-day development work, but they are very important. 
+The issue with this statement is that it muddies the reponsibilities and accountability for people at both ends of the hierarchy. It is better to acknowledge where we are now - NOT a flat hierarchy - and provide clear responisibilities and expectations.
+
+Becoming a flat hierarchy can be a goal, but it is not where we are. Otherwise this claim - from the perspective of developers - seems isolated from the day to day reality, and contradicts our process and organisational strucuture.
+
+### Roles outside the development team
+
+There are other important roles that are not always present in the day-to-day development work, but they are very crucial to delivering value and _addressing world real challenges_. 
 
 **QA team** should be engaged periodically and tickets that need further testing and preparation are highlighted often. 
 
-**UX** team provides designs for much of the work we do, but - given the size of the team - we often have to improvise designs. We overcome issues with that by following the design principles set by the UX team, build on common UI patterns and libraries, and over-communicate with the UX team to ensure what we build is aligned what they expect. **Functional Design** team has a major role in deciding what we build and what goes into the roadmap. We should proactively engage with them beyond the initial phases, and seek their feedback continuously as we build features, especially larger ones. This can take the form of meetings, or, preferably, periodic short updates on Slack, Jira and other channels.
+> todo: describe communication/touch points with QA (maybe in way of testing)
+
+**UX** team provides designs for much of the work we do, but - given the size of the team - we often have to improvise designs. We overcome issues with that by following [the design principles](https://ui.dhis2.nu/principles/color) set by the UX team, build on common UI patterns and libraries, and over-communicate with the UX team to ensure what we build is aligned what they expect.
+
+**Functional Design** team has a major role in deciding what we build and what goes into the roadmap. We should proactively engage with them beyond the initial phases, and seek their feedback continuously as we build features, especially larger ones. This can take the form of meetings, or, preferably, periodic short updates on Slack, Jira and other channels.
 
 
 ## Communication patterns
 
-We are a remote-first team. Our communication tends to be centered around these channels:
+We see development as primarily an exercise in good communication and transparency. It is important, especially in a remote diverse team, to ensure clear efficient communication in all channels.
 
-- Tuesday meetings: We have two meetings on Tuesday morning. One includes BE + FE teams, followed by one for each team separately. In the joint meeting, we
 
-- Other regular meetings: Retrospective, DevEx meeting, bi-weekly Platform presentations etc...
-
-- "top-down" communication: communicating roadmap, brown-bag sessions, all-hands
-
-- Pull Requests
-
-- Slack
-
-- Jira
-
-### Guidelines for effective comunication
+### Effective comunication
 
 Whatever the channel used for communication, we would like to follow an approach that is effective and follows our principles of empathy and transparency. These are some guidelines for effective communication that are a good starting point:
 
@@ -234,12 +224,40 @@ Whatever the channel used for communication, we would like to follow an approach
 1. Do not underestimate a 1:1. Asynchronous communication (e.g., via text) is helpful and necessary. In some cases (e.g., to clarify misunderstandings) it can be much more effective to jump on a video call.
 1. Focus on what we can directly influence. There are many factors we can't directly influence and we should avoid spending time discussing those things.
 
+### Meetings
+
+Our main meetings are:
+
+- Weekly meetings: In Platform, there are two meetings on Tuesday morning. One includes BE + FE teams, followed by one for each team separately. In the joint meeting, we go through the board and have an overview of what we worked on last week and what we intend to work on.
+
+- Other regular meetings: Retrospective, DevEx meeting, bi-weekly Platform presentations etc...
+
+- "top-down" communication: communicating roadmap, brown-bag sessions, all-hands
+
+#### Meetings Etiquette
+- Start and finish on time.
+- If you're running overtime, ask for permission to extend the meeting and allow people to stop.
+- Provide an agenda for the meeting. This applies to regular meetings as well - update the meeting's invite to share what's the agenda for the next meeting.
+- Avoid a scheduled meeting if possible. If there is an alternative; an impromptu huddle on Slack, an async message that gives people time to reflect and think etc.. then prefer that.  
 
 ### Pull Requests as a communication tool
 
 > todo: pull requests
 
-#### Pairing is the new PR
+### Pairing is the new PR
+
+### Slack Etiquette
+> todo
+
+## Other topics
+
+### Deadlines
+
+### Feedback culture
+
+### Jira
+
+### RFCs
 
 ## Resources
 - Roadmap process: https://dhis2.org/roadmap/process/
