@@ -3,19 +3,20 @@ title: Frontend way of working (Platform)
 sidebar_position: 1
 ---
 
-## The values
+## The principles
 
 As a team, we value:
 
-- **Transparency**: Transparency is at the core of what we do. We see development as an exercise in good communication and transparency, as much as it is a technical exercise. Transparency builds trust, improves communication, accountability, and ensures we're always engaged with different stakeholders and view points to _not_ only build the things right, but also build the right things.
+- **Addressing real world challenges**: DHIS2 success story is rooted in being close to the end user, and to focus on addressing their real world challenges with humility and pragmatism. As a dev team, we should learn from these roots and keep them in the center of all what we do. This can sometimes mean prioritising the users' pain points (rather than the developers' pain points), it _could_ mean that  we _consciously_ ship imperfect solutions because "Pefect is the enemy of Good". But more than anything, it means that - as we scale - we have to develop a sense of *pragmatism* and aim for more than "just good" while still focusing on delivering value for the people actually using DHIS2.
 
-- **Continuous improvement**: We aim for continuous improvement. Every release, every sprint, every day, we aim to be better than the previous one. Our goal is always a moving target; it is to improve ourselves, our process and our product, and learn and grow from our experiences. 
+- **Flexibility and responsiveness**: This should be a general attitude in our communication and development work. It is also an attitude rooted in DHIS2 beginnings. Since we value our end-users and stakeholders, we also understand - with humility - that our technical output serves them in the first place. We show that by being flexible, responsive and *empathetic* with their needs. Internally, we also exercise the same responsiveness and flexibility; we are responsive to other teammates requests, we are responsive to urgent bugs and fixes, and we don't get too dogmatic about technical differences because technology is the means not the end.
 
-- **Pragmatism**: We value pragmatism. DHIS2 success story is rooted in pragmatism and that _often_ Pefect is the enemy of Good. As we scale, we should aim more than "just good" but - especially in the frontend world - it's easy to lose track of delivering value to seek technical perfection. Our development work should be a continuous exercise in pragmatism to make sure that we always deliver value for the end-user, and that our technical excellence is a means not a goal.
+- **Transparent efficient communication**: Transparency should be at the core of what we do. **We see development as primarily an exercise in good communication and transparency**. Transparency builds trust, improves communication, accountability, and ensures we're always engaged with different stakeholders and view points to _not_ only build the things right, but also build the right things. Efficient communication means good meetings, good PRs, great documentation and great engagement with our end-users, but it also means always assuming good intentions, over-communicating in a remote team, and be inclusive and open in a team with different personalities and backgrounds.  
 
-We also think that **empathy** underpins all these values and all what we do. This is empathy with the end-users, with other stake holders and above all empathy with our fellow developers and colleagues.
+We also value **Continuous improvement**. Every release, every sprint, every day, we aim to be better than the previous one. Our goal is always a moving target; it is to improve ourselves, our process and our product, and learn and grow from our experiences. 
 
-Our way of working builds on these values. This document defines some of the details of how we work (the process, the meetings, the technology etc..) but the details are an on-going process (continuous improvement) and the details should be viewed, refined and _critiqued_ in the spirit provided by these values.
+
+Our way of working builds on these principles. This document defines some of the details of how we work (the process, the meetings, the technology etc..) but the details are an on-going process (continuous improvement) and the details should always be viewed, refined and _critiqued_ in the spirit provided by these principles.
 
 ## The Process
 
