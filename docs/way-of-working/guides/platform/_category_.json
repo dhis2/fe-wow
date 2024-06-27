@@ -1,6 +1,6 @@
 {
-  "position": 10,
-  "label": "Platform",
+  "position": 100,
+  "label": "Platform toolset",
   "collapsible": true,
   "collapsed": false
 }

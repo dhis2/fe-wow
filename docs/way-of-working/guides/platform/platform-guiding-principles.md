@@ -1,5 +1,5 @@
 ---
-title: Platform guiding principles
+title: Platform toolset guiding principles
 sidebar_position: 10
 ---
 

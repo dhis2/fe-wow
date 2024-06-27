@@ -1,5 +1,5 @@
 ---
-title: Platform components
+title: Platform toolset components
 sidebar_position: 20
 tags:
     - platform

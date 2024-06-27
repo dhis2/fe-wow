@@ -63,7 +63,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/dhis-logo.png",
     navbar: {
       title: "Frontend Way of Working (WIP)",
       logo: {
