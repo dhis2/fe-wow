@@ -3,9 +3,15 @@ title: Frontend way of working (Platform)
 sidebar_position: 1
 ---
 
-## The principles
+:::danger[Draft]
+This document is still in draft. It has sections that describe the current situation (i.e.process), and others that are marked as _proposal_ that are based on previous discussions, as a starting point for wider discussions with the team to come to concensus. 
+:::
 
-As a team, we value:
+## The principles (proposal)
+
+:::warning[ToDo]
+These are proposed principles based on the engineering teams' principles shared by engineering leadership. We should plan an exercise (platform or cross-teams) to discuss and agree on these.
+:::
 
 - **Addressing real world challenges**: DHIS2 success story is rooted in being close to the end user, and to focus on addressing their real world challenges with humility and pragmatism. As a dev team, we should learn from these roots and always ensure we are _not_ only building the things right, but also building the right things. This can sometimes mean prioritising the users' pain points (rather than the developers' pain points), it _could_ mean that  we _consciously_ ship imperfect solutions because "Pefect is the enemy of Good". But more than anything, it means that - as we scale - we have to develop a sense of **pragmatism** to aim for more than "just good" from a technical perspective, while still focusing on delivering value for the real-world challenges. 
 
@@ -13,12 +19,16 @@ As a team, we value:
 
 - **Transparent efficient communication**: Transparency should be at the core of all what we do. We see development as primarily an exercise in good communication and transparency. Transparency builds trust, improves communication, accountability, and ensures we're always engaged with different stakeholders and view points. Efficient communication means efficient meetings, good PRs, great documentation and constant engagement with our end-users, but it also means always assuming good intentions, over-communicating in a remote team, and be inclusive and open in a team with different personalities and backgrounds.  
 
-We also value **Continuous improvement**. Every release, every sprint, every day, we aim to be better than the previous one. Our goal is always a moving target; it is to improve ourselves, our process and our product, and learn and grow from our experiences. 
+### Other possible principles
+- We also value **Continuous improvement**. Every release, every sprint, every day, we aim to be better than the previous one. Our goal is always a moving target; it is to improve ourselves, our process and our product, and learn and grow from our experiences. 
+- todo: suggest more
 
-
-Our way of working builds on these principles. This document defines some of the details of how we work (the process, the meetings, the technology etc..) but the details are an on-going process (continuous improvement) and the details should always be viewed, refined and _critiqued_ in the spirit provided by these principles.
+### Why principles?
+Our way of working should build on these principles. This document defines some of the details of how we work (the process, the meetings, the technology etc..) but these details are always work in progress and subject to change and evolve. We should continuously view, refine and _critique_ the details in the spirit provided by these principles.
 
 ## The Process
+
+### Where we are now
 
 We work in iterations to deliver [our roadmap](https://dhis2.org/roadmap/) items during a release cycle (one year).
 
@@ -66,7 +76,7 @@ We have a **retrospective** every two sprints. The retrospective represents an o
 
 
 <details>
-    <summary>Why sprints and all of that - a.k.a where we were before</summary>
+    <summary>Why sprints and all of that (where we were before)</summary>
 
         
     **high-level view**
@@ -79,7 +89,7 @@ We have a **retrospective** every two sprints. The retrospective represents an o
 
     **From dev's perspective**
 
-    Most of our projects tend to become a one-man project ("man", since we're also very lacking in diversity). This is mainly due to lack of resources, but often due to people's preference and the type of projects where having more than one person wouldn't necessary make things quicker.
+    Most of our projects tend to become a one-person project. This is mainly due to lack of resources, but often due to people's preference and the type of projects where having more than one person wouldn't necessary make things quicker.
 
     The main lifecycle while developing remains the major release. We've had attempts to break these long periods into shorter spans. We tried formal methods like sprints, but also informal methods like aligning with product demos and reviews.
 
@@ -124,7 +134,7 @@ We also think that, while we should be open to what's common wisdom in the tech 
 :::
 
 
-## Definition of Done
+## Definition of Done (Proposal)
 
 - **Implemented and a PR raised**: The developer has implemented the feature or fixed the bug, and has done their own developer testing to ensure it's working. They raised a PR with enough context for someone to review it.
 
@@ -155,8 +165,9 @@ We would like also to have in the DoD:
 
 - **RTL-friendly**: We support a growing number of right-to-left languages. We aim to make sure that our apps function well in RTL languages. This is achieved mostly by using logical CSS properties, and we have tools to support and automate that process (an example of their use in [this PR](https://github.com/dhis2/dashboard-app/pull/2985))
 
+> Todo: What else?
 
-## Definition of Ready
+## Definition of Ready (Proposal)
 
 A Definition of Ready (DoR) is a set of criteria that ensures a backlog item is ready to be developed and delivered.
 
@@ -181,16 +192,6 @@ The main roles taking part in the sprint are:
 - The tech lead: they work closely with the engineering manager and the product manager to ensure that work is sufficiently estimated and ready to be picked up by developers. They are responsible of the sprint planning and getting a commitment from the team to deliver a sprint objectives. They also make sure that a portion of the sprint is spent on tackling technical debt and technical improvements needed to ensure the ongoing quality of what is delivered.
 
 - The developers: they own the technical delivery of a functionality. They ensure that these are developed with good quality in a timely manner, and that their progress is transparent and well communicated.
-
-### The (not-)flat hierarchy
-
-> discussion point
-
-We historically described ourselves as a "flat hierarchy". This might have been true in the early days of DHIS2, but  as the team scaled and got bigger, this is not a view shared by developers anymore.
-
-The issue with this statement is that it muddies the reponsibilities and accountability for people at both ends of the hierarchy. It is better to acknowledge where we are now - NOT a flat hierarchy - and provide clear responisibilities and expectations.
-
-Becoming a flat hierarchy can be a goal, but it is not where we are. Otherwise this claim - from the perspective of developers - seems isolated from the day to day reality, and contradicts our process and organisational strucuture.
 
 ### Roles outside the development team
 
